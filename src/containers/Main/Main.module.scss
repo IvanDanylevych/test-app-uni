@@ -1,0 +1,16 @@
+.usersWrapper {
+  display: flex;
+  flex-direction: column;
+  .button {
+    margin: 10px auto;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}
