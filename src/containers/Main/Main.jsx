@@ -27,15 +27,19 @@ const Main = ({onGetUsers, onGetUser, users, user, cleanUser, loading}) => {
   useEffect(() => {
     if (selectedUser) {
       onGetUser(selectedUser);
-    } else {
-      onGetUsers();
     }
-
     return () => {
       cleanUser()
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedUser])
+  
+  useEffect(() => {
+    if (!user.length) {
+      onGetUsers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <>
