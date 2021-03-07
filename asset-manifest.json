@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-app-uni/static/css/main.81de4dc3.chunk.css",
+    "main.css": "/test-app-uni/static/css/main.ad13a7e3.chunk.css",
     "main.js": "/test-app-uni/static/js/main.a1bcb56b.chunk.js",
     "main.js.map": "/test-app-uni/static/js/main.a1bcb56b.chunk.js.map",
     "runtime-main.js": "/test-app-uni/static/js/runtime-main.2bbda570.js",
@@ -8,13 +8,13 @@
     "static/js/2.7a457cdc.chunk.js": "/test-app-uni/static/js/2.7a457cdc.chunk.js",
     "static/js/2.7a457cdc.chunk.js.map": "/test-app-uni/static/js/2.7a457cdc.chunk.js.map",
     "index.html": "/test-app-uni/index.html",
-    "static/css/main.81de4dc3.chunk.css.map": "/test-app-uni/static/css/main.81de4dc3.chunk.css.map",
+    "static/css/main.ad13a7e3.chunk.css.map": "/test-app-uni/static/css/main.ad13a7e3.chunk.css.map",
     "static/js/2.7a457cdc.chunk.js.LICENSE.txt": "/test-app-uni/static/js/2.7a457cdc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2bbda570.js",
     "static/js/2.7a457cdc.chunk.js",
-    "static/css/main.81de4dc3.chunk.css",
+    "static/css/main.ad13a7e3.chunk.css",
     "static/js/main.a1bcb56b.chunk.js"
   ]
 }
